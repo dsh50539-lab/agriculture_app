@@ -1,0 +1,15 @@
+/* الكود ده هيجبر كل النصوص في الموقع تبقى سوداء */
+* {
+  color: #000000 !important;
+}
+
+/* استثناء عشان الهيدر (الشريط الأخضر) والفوتر والزراير تفضل نصوصها بيضاء */
+header *, footer *, button {
+  color: #ffffff !important;
+}
+
+/* لو فيه أزرار خلفيتها بيضاء، هنخلي نصها رمادي غامق عشان يبان */
+button[style*="background-color: white"], 
+button[style*="background-color: #ffffff"] {
+  color: #333333 !important;
+}
