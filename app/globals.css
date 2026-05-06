@@ -12,4 +12,12 @@ header *, footer *, button {
 button[style*="background-color: white"], 
 button[style*="background-color: #ffffff"] {
   color: #333333 !important;
+}/* إظهار نصوص الاختيارات والأسئلة في الامتحان */
+.exam-container, .question, .option, label, input + span {
+    color: #000000 !important;
+}
+
+/* لو فيه أزرار مش باينة نصوصها */
+button {
+    color: #000000 !important;
 }
